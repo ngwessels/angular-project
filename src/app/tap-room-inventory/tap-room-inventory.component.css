@@ -1,0 +1,16 @@
+h3 {
+  text-decoration-line: underline;
+}
+
+.red {
+  color: red;
+}
+.green {
+  color: green;
+}
+.orange {
+  color: orange;
+}
+#bold {
+  font-weight: bold;
+}

@@ -1,0 +1,39 @@
+<h3>
+  Inventory of our current Stock
+</h3>
+
+<ul>
+  <h2>Employee Information</h2>
+  <li [class]="checkPints(keg)" *ngFor="let keg of kegs" (click)='onSelect(keg)'>
+    <span>{{keg.brand}}</span> <span> {{keg.name}}</span> Pints Left: <span>{{keg.pints}}</span>
+    <button type="button" (click)='decrease(keg)'>Sell</button>
+  </li>
+</ul>
+
+<ul>
+  <h2>For our Patrons</h2>
+  <li [class]="checkPrice(keg)" [id]="checkABV(keg)" *ngFor="let keg of kegs" (click)='onSelect(keg)'>
+    <span>{{keg.brand}}</span> <span> {{keg.name}} </span><span>ABV: {{keg.alcoholContent}}% </span><span>Price: ${{keg.price}}</span> Pints Left: <span>{{keg.pints}}</span>
+  </li>
+</ul>
+
+<div *ngIf='selectedKeg'>
+  <h2>{{selectedKeg.name | uppercase}} Details</h2>
+  <div><span>Name: </span>{{selectedKeg.name}}</div>
+  <div><span>Brand: </span>{{selectedKeg.brand}}</div>
+  <div><span>Price: </span>{{selectedKeg.price}}</div>
+  <div><span>alcohol Content: </span>{{selectedKeg.alcoholContent}}</div>
+  <div><span>Flavor: </span>{{selectedKeg.flavor}}</div>
+  <div><span>Pints: </span>{{selectedKeg.pints}}</div>
+  <label>name:
+    <input [(ngModel)]="selectedKeg.name" placeholder="name"/>
+    <input [(ngModel)]="selectedKeg.brand" placeholder="brand"/>
+    <input [(ngModel)]="selectedKeg.price" placeholder="price"/>
+    <input [(ngModel)]="selectedKeg.alcoholContent" placeholder="alcoholContent"/>
+    <input [(ngModel)]="selectedKeg.flavor" placeholder="flavor"/>
+    <input [(ngModel)]="selectedKeg.pints" placeholder="pints"/>
+  </label>
+</div>
+
+<div>
+</div>
