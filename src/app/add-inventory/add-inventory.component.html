@@ -1,3 +1,15 @@
-<p>
-  add-inventory works!
-</p>
+
+
+
+  <div *ngIf="newDrink" newDrinks>
+    <!-- <input [(ngModel)]="newDrink.name" value='name'>
+    <input [(ngModel)]="newDrink.brand" value='brand'>
+    <input [(ngModel)]="newDrink.alcoholContent" value='alcoholContent' type='number'>
+    <input [(ngModel)]="newDrink.flavor" value='flavor'> -->
+    <input #name placeholder="Alcohol Drink Name">
+    <input #brand placeholder="Brand Name">
+    <input #alcoholContent type='number' placeholder="alcoholContent">
+    <input #flavor placeholder="Flavor">
+    <input #price type='number' placeholder="Price">
+    <button (click)="onSubmit(name.value, brand.value, alcoholContent.value, flavor.value, price.value); name.value=''; brand.value=''; alcoholContent.value=''; flavor.value=''; price.value='';">Submit!</button>
+  </div>

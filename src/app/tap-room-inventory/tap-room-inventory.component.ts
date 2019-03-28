@@ -6,9 +6,8 @@ import { TapRoom } from '../mock-kegs';
   templateUrl: './tap-room-inventory.component.html',
   styleUrls: ['./tap-room-inventory.component.css']
 })
-export class TapRoomInventoryComponent implements OnInit {
-  ngOnInit() {
-  }
+export class TapRoomInventoryComponent{
+
   kegs = TapRoom;
   selectedKeg: Keg;
   onSelect(keg: Keg): void {
@@ -43,6 +42,9 @@ export class TapRoomInventoryComponent implements OnInit {
     if(keg.alcoholContent > 5) {
       return "bold";
     }
+  }
+  newKeg(newKeg) {
+
   }
 
 }

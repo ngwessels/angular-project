@@ -21,4 +21,4 @@ import { AddInventoryComponent } from './add-inventory/add-inventory.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}

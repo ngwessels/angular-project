@@ -1,15 +1,20 @@
-import { Component, OnInit } from '@angular/core';
-
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
+import { Keg } from '../keg';
 @Component({
-  selector: 'app-add-inventory',
+  selector: 'add-inventory',
   templateUrl: './add-inventory.component.html',
   styleUrls: ['./add-inventory.component.css']
 })
-export class AddInventoryComponent implements OnInit {
+export class AddInventoryComponent{
+  @Output() submitNew = new EventEmitter();
 
-  constructor() { }
-
-  ngOnInit() {
+  newDrink = !null;
+  constructor() {
+   }
+  onSubmit(name: string, brand: string, alcohol: string, flavor: string, price: string) {
+    let newKeg: Keg = new Keg(name, brand, parseInt(alcohol), flavor, parseInt(price), 124);
+    console.log(newKeg);
+    this.submitNew.emit(newKeg);
   }
 
 }
