@@ -4,7 +4,7 @@ import { TapRoom } from '../mock-kegs';
 @Component({
   selector: 'inventory',
   templateUrl: './tap-room-inventory.component.html',
-  styleUrls: ['./tap-room-inventory.component.css']
+  styleUrls: ['./tap-room-inventory.component.scss']
 })
 export class TapRoomInventoryComponent{
 

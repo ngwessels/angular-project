@@ -1,21 +1,24 @@
 <h3>
   Inventory of our current Stock
 </h3>
+<div class="styles">
+  <ul>
+    <h2>Employee Information</h2>
+    <li [class]="checkPints(keg)" *ngFor="let keg of kegs" (click)='onSelect(keg)'>
+      <span>{{keg.brand}}</span> <span> {{keg.name}}</span> Pints Left: <span>{{keg.pints}}</span>
+      <button type="button" (click)='decrease(keg)'>Sell</button>
+    </li>
+  </ul>
+</div>
+<div class="styles">
+  <ul>
+    <h2 class='styles'>For our Patrons</h2>
+    <li [class]="checkPrice(keg)" [id]="checkABV(keg)" *ngFor="let keg of kegs" (click)='onSelect(keg)'>
+      <span>{{keg.brand}}</span> <span> {{keg.name}} </span><span>ABV: {{keg.alcoholContent}}% </span><span>Price: ${{keg.price}}</span> Pints Left: <span>{{keg.pints}}</span>
+    </li>
+  </ul>
 
-<ul>
-  <h2>Employee Information</h2>
-  <li [class]="checkPints(keg)" *ngFor="let keg of kegs" (click)='onSelect(keg)'>
-    <span>{{keg.brand}}</span> <span> {{keg.name}}</span> Pints Left: <span>{{keg.pints}}</span>
-    <button type="button" (click)='decrease(keg)'>Sell</button>
-  </li>
-</ul>
-
-<ul>
-  <h2>For our Patrons</h2>
-  <li [class]="checkPrice(keg)" [id]="checkABV(keg)" *ngFor="let keg of kegs" (click)='onSelect(keg)'>
-    <span>{{keg.brand}}</span> <span> {{keg.name}} </span><span>ABV: {{keg.alcoholContent}}% </span><span>Price: ${{keg.price}}</span> Pints Left: <span>{{keg.pints}}</span>
-  </li>
-</ul>
+</div>
 
 <div *ngIf='selectedKeg'>
   <h2>{{selectedKeg.name | uppercase}} Details</h2>

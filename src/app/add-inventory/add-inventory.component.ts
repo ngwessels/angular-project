@@ -3,7 +3,7 @@ import { Keg } from '../keg';
 @Component({
   selector: 'add-inventory',
   templateUrl: './add-inventory.component.html',
-  styleUrls: ['./add-inventory.component.css']
+  styleUrls: ['./add-inventory.component.scss']
 })
 export class AddInventoryComponent{
   @Output() submitNew = new EventEmitter();
