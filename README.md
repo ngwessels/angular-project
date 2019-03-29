@@ -11,10 +11,11 @@ _Author_ **Nate Wessels**
 
 ### Description
 
+_This Application will show a cloned version of the Weather Channel Website. It is using the Angular framework. This application shows the use of inputs and outputs between child and parent components_
 
 ### Specs
 
-_This application will display a clone version of the "www.weather.com" website using angular_
+_This application will display a cloned version of the "www.weather.com" website using angular_
 
 ### Real Website
 
