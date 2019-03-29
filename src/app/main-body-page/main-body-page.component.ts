@@ -1,15 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-main-body-page',
+  selector: 'main-body-page',
   templateUrl: './main-body-page.component.html',
   styleUrls: ['./main-body-page.component.scss']
 })
-export class MainBodyPageComponent implements OnInit {
+export class MainBodyPageComponent{
 
   constructor() { }
 
-  ngOnInit() {
-  }
 
 }
