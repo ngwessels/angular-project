@@ -5,24 +5,14 @@
   </div>
   <div class="bottom">
     <ul id='top-ul'>
-      <li>FeedBack</li>
-      <li>Careers</li>
-      <li>Download Apps</li>
-      <li>Press Room</li>
-      <li>Advertise With Us</li>
-      <li>TV</li>
-      <li>Newsletters and Alerts</li>
+      <li *ngFor='let index of secondList'><span>{{index.information}}</span></li>
     </ul>
     <ul id='bottom-ul'>
-      <li id="none">Terms of Use</li>
-      <li>Privacy Policy</li>
-      <li>Parental Controls</li>
-      <li>Ad Choice</li>
-      <li>Ad Partners</li>
-      <li>Analytics Partners</li>
-      <li>Data Rights</li>
-      <li><img id='georgia' src="../../assets/img/georgia.png" alt="georgia"></li>
+      <li *ngFor='let i of thirdList'><span>{{i.information}}</span></li>
+
      </ul>
+     <img id='georgia' src="../../assets/img/georgia.png" alt="georgia">
      <img id='poweredby' src="../../assets/img/powered-by.png" alt="Powered By">
   </div>
 </div>
+sdf

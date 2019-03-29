@@ -139,37 +139,37 @@ div {
 }
 
 @media screen and (max-width: 640px) {
-  .more {
+  #More {
     display: none;
   }
 }
 @media screen and (max-width: 600px) {
-  .maps {
+  #Maps {
     display: none;
   }
 }
 @media screen and (max-width: 530px) {
-  .monthly {
+  #Monthly {
     display: none;
   }
 }
 @media screen and (max-width: 450px) {
-  .weekend {
+  #Weekend {
     display: none;
   }
 }
 @media screen and (max-width: 360px) {
-  .tenday {
+  #Tenday {
     display: none;
   }
 }
 @media screen and (max-width: 287px) {
-  .fiveday {
+  #Fiveday {
     display: none;
   }
 }
 @media screen and (max-width: 220px) {
-  .hourly {
+  #Hourly {
     display: none;
   }
 }

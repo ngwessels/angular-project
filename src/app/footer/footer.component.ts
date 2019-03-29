@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { SecondList } from '../information-mock';
+import { ThirdList } from '../information-mock';
 
 @Component({
   selector: 'footer',
@@ -7,7 +9,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FooterComponent{
 
-  constructor() { }
+  secondList = SecondList;
+  thirdList = ThirdList;
 
+  constructor() { }
+  displayInfo() {
+    console.log(ThirdList);
+  }
 
 }
+let footer = new FooterComponent();
+footer.displayInfo();

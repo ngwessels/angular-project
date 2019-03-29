@@ -16,6 +16,4 @@ export class NavBarComponent{
     this.buttonPressed.emit(name);
   }
 
-
-
 }

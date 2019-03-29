@@ -25,7 +25,7 @@
   <div class="bottom-nav">
     <div class="bottom-nav-width">
       <ul>
-        <li [class]='index.information' *ngFor='let index of firstLists' (click)='onClick(index.information)'>
+        <li [id]='index.information' *ngFor='let index of firstLists' (click)='onClick(index.information)'>
         <span>{{index.information}}</span></li>
       </ul>
     </div>
