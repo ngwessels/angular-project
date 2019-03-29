@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Information } from './information';
+import { FirstList } from './information-mock';
 
 @Component({
   selector: 'app-root',

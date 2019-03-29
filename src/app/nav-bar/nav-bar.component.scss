@@ -121,6 +121,7 @@ div {
         }
         li:hover {
           cursor: pointer;
+          text-decoration: underline;
         }
       }
 
@@ -138,37 +139,37 @@ div {
 }
 
 @media screen and (max-width: 640px) {
-  #more {
+  .more {
     display: none;
   }
 }
 @media screen and (max-width: 600px) {
-  #maps {
+  .maps {
     display: none;
   }
 }
 @media screen and (max-width: 530px) {
-  #monthly {
+  .monthly {
     display: none;
   }
 }
 @media screen and (max-width: 450px) {
-  #weekend {
+  .weekend {
     display: none;
   }
 }
 @media screen and (max-width: 360px) {
-  #tenday {
+  .tenday {
     display: none;
   }
 }
 @media screen and (max-width: 287px) {
-  #fiveday {
+  .fiveday {
     display: none;
   }
 }
 @media screen and (max-width: 220px) {
-  #hourly {
+  .hourly {
     display: none;
   }
 }

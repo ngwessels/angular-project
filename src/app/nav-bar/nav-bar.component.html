@@ -25,16 +25,9 @@
   <div class="bottom-nav">
     <div class="bottom-nav-width">
       <ul>
-        <a id='today' (click)="onClick('today')"><li>Today</li></a>
-        <a id='hourly' (click)="onClick('hourly')"><li>Hourly</li></a>
-        <a id='fiveday' (click)="onClick('fiveday')"><li>5 Day</li></a>
-        <a id='tenday' (click)="onClick('tenday')"><li>10 Day</li></a>
-        <a id='weekend' (click)="onClick('weekend')"><li>Weekend</li></a>
-        <a id='monthly' (click)="onClick('monthly')"><li>Monthly</li></a>
-        <a id='maps' (click)="onClick('maps')"><li>Maps</li></a>
-        <a id='more' (click)="onClick('more')"><li>More Forecasts</li></a>
+        <li [class]='index.information' *ngFor='let index of firstLists' (click)='onClick(index.information)'>
+        <span>{{index.information}}</span></li>
       </ul>
-
     </div>
   </div>
 
