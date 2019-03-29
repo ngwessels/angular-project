@@ -1,15 +1,18 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
-  selector: 'app-top-ad',
+  selector: 'top-ad',
   templateUrl: './top-ad.component.html',
   styleUrls: ['./top-ad.component.scss']
 })
-export class TopAdComponent implements OnInit {
+export class TopAdComponent{
+  @Output() firstAdClicked = new EventEmitter();
+
 
   constructor() { }
 
-  ngOnInit() {
+  buttonPressed(name: string) {
+    this.firstAdClicked.emit(name);
   }
 
 }

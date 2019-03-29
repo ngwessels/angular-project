@@ -1,0 +1,18 @@
+.image-body {
+  margin: 0 auto;
+  width: 728px;
+  height: 90px;
+  .image-stored {
+    margin: 0 auto;
+    width: 728px;
+    height: 90px;
+    img {
+      margin-top: 19px;
+      width: 728px;
+      height: 90px;
+    }
+    img:hover {
+      cursor: pointer;
+    }
+  }
+}

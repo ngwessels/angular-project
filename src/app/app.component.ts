@@ -11,6 +11,9 @@ export class AppComponent {
   linkPressed(name: string) {
     console.log(name);
   }
+  adClicked(name: string) {
+    console.log(name);
+  }
 
 
 
