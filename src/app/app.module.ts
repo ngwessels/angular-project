@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { TopAdComponent } from './top-ad/top-ad.component';
 import { MainBodyPageComponent } from './main-body-page/main-body-page.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { MainBodyPageComponent } from './main-body-page/main-body-page.component
     NavBarComponent,
     TopAdComponent,
     MainBodyPageComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
