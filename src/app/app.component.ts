@@ -7,11 +7,8 @@ import { TapRoom } from './mock-kegs';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'tap-room';
+  title = "Weather Channel Clone"
 
-  newKeg(input) {
-    TapRoom.push(input);
-  }
 
 
 
