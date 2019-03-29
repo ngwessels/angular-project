@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
-import { Keg } from './keg';
-import { TapRoom } from './mock-kegs';
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',

@@ -1,27 +1,70 @@
-# TapRoom
+# _Find Your Doctor_
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.3.
+_Published_ **March 29th 2018**<br>
+_Author_ **Nate Wessels**
 
-## Development server
+1. [Description](#description)
+1. [Installation](#installation)
+1. [Known Bugs](#known-bugs)
+1. [Technologies Used](#technologies-used)
+1. [License](#license)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### Description
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Specs
 
-## Build
+_This application will display a clone version of the "www.weather.com" website using angular_
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+### Real Website
 
-## Running unit tests
+#### Top of the Real Website
+![Top of the real Weather Channel Website](src/assets/img/top-real.png)
+#### Body of the Real Website
+![Body of the real Weather Channel Website](src/assets/img/body-real.png)
+#### Footer of the Real Website
+![Footer of the Real Weather Channel Website](src/assets/img/footer-real.png)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Cloned Webiste
 
-## Running end-to-end tests
+#### Top of the Cloned Website
+![Top of the Cloned Weather Channel Website](src/assets/img/top-clone.png)
+#### Body of the Cloned Website
+![Body of the Cloned Weather Channel Website](src/assets/img/body-clone.png)
+#### Footer of the Cloned Website
+![Footer of the Cloned Weather Channel Website](src/assets/img/footer-clone.png)
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
+### Installation
+_Below are the steps to follow to install this application_
+  1. First Make sure that you have installed NPM on your device. Follow the instructions on https://www.npmjs.com/get-npm if you have not.
+  2. Next we need to install the repository onto this device. Go to your terminal
+  3. Type in `cd desktop`
+  4. Now to get the repository from Github we need to clone it from the website. To do that type in `git clone https://github.com/ngwessels/angular-project`
+  5. Once its finished installing, type in `npm install`. This will download any developer/dependencies from its package.json file. This step may take a few minutes
+  6. Once finished type in `ng serve --open` to open it in your browser
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+### Known Bugs
+* None identified
+
+### Support and Contact Details
+
+_Contact Nate Wesses at nwessels16@gmail.com_
+
+### Technologies Used
+* HTML
+* Javascript / TypeScript
+* Angular
+* SCSS
+
+### License
+
+
+_Copyright (c) 2019 Nate Wessels, Epicodus_
+
+_Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:_
+
+_The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software._
+
+_THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE._
