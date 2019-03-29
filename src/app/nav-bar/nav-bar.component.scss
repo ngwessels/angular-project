@@ -71,6 +71,12 @@ div {
           margin-left: 5px;
 
         }
+        #menu:hover {
+          cursor: pointer;
+        }
+        #us:hover {
+          cursor: pointer;
+        }
       }
     }
   }
@@ -112,6 +118,9 @@ div {
         list-style-type: none;
         a:hover {
           text-decoration: underline;
+        }
+        li:hover {
+          cursor: pointer;
         }
       }
 

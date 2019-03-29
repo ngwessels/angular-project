@@ -8,7 +8,9 @@ import { TapRoom } from './mock-kegs';
 })
 export class AppComponent {
   title = "Weather Channel Clone"
-
+  linkPressed(name: string) {
+    console.log(name);
+  }
 
 
 
