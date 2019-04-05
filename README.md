@@ -11,7 +11,7 @@ _Author_ **Nate Wessels**
 
 ### Description
 
-_This Application will show a cloned version of the Weather Channel Website. It is using the Angular framework. This application shows the use of inputs and outputs between child and parent components_
+_This Application will show a cloned version of the Weather Channel Website. It is using the Angular framework. This application shows the use of inputs and outputs between child and parent components. This application also shows the use of firebase database, and firebase hosting. Go to https://angular-project-acaab.firebaseapp.com/ to look at the page_
 
 ### Specs
 
@@ -50,11 +50,12 @@ _Below are the steps to follow to install this application_
 _Below is a list of features this application has_
   1. Angular framework
   2. Firebase Realtime database
+  3. FireBase Hosting
 
 ###Possible Features in the Future
 _Below is a list of planned features that have not been worked on yet_
   1. Firebase Storage. Storing all photos
-  2. API Call getting realtime weather Informatio
+  2. API Call getting realtime weather Informatiom
 
 ### Known Bugs
 * None identified
