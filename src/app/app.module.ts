@@ -11,7 +11,6 @@ import { FooterComponent } from './footer/footer.component';
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
 
-
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
   authDomain: masterFirebaseConfig.authDomain,
@@ -33,7 +32,7 @@ export const firebaseConfig = {
     FormsModule,
     AppRoutingModule,
     AngularFireModule.initializeApp(firebaseConfig),
-    AngularFireDatabaseModule
+    AngularFireDatabaseModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
