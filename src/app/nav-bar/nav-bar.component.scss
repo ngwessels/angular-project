@@ -116,6 +116,9 @@ div {
         flex-direction: row;
         justify-content: space-between;
         list-style-type: none;
+        a {
+          text-decoration: none;
+        }
         a:hover {
           text-decoration: underline;
         }
@@ -127,6 +130,11 @@ div {
 
     }
   }
+}
+
+a {
+  color: white;
+  list-style: none;
 }
 
 @media screen and (max-width: 770px) {

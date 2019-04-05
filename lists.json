@@ -1,17 +1,24 @@
 { "FirstList": [{
-    "information": "Today"
+    "information": "Today",
+    "url": "https://weather.com/weather/today"
     }, {
-    "information": "Hourly"
+    "information": "Hourly",
+    "url": "https://weather.com/weather/hourbyhour/"
     }, {
-    "information": "Fiveday"
+    "information": "Fiveday",
+    "url": "https://weather.com/weather/5day/"
     }, {
-    "information": "Tenday"
+    "information": "Tenday",
+    "url": "https://weather.com/weather/tenday/"
     }, {
-    "information": "Weekend"
+    "information": "Weekend",
+    "url": "https://weather.com/weather/weekend/"
     }, {
-    "information": "Monthly"
+    "information": "Monthly",
+    "url": "https://weather.com/weather/monthly/"
     }, {
-    "information": "Maps"
+    "information": "Maps",
+    "url": "https://weather.com/weather/radar/interactive/"
     }, {
     "information": "More"
     }],
