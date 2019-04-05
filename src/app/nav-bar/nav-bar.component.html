@@ -25,8 +25,14 @@
   <div class="bottom-nav">
     <div class="bottom-nav-width">
       <ul>
-        <li [id]='index.information' *ngFor='let index of firstLists' (click)='onClick(index.information)'>
-        <span>{{index}}</span></li>
+        <li [id]='index.information' *ngFor='let index of lists | async' (click)='onClick(index.information)'>
+          <span>{{index.information}}</span>
+        </li>
+
+
+        <!--
+        <li [id]='index.information' *ngFor='let index of lists' (click)='onClick(index.information)'>
+        <span>{{index.information}}</span></li> -->
       </ul>
     </div>
   </div>

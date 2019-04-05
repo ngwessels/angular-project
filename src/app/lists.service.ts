@@ -5,13 +5,23 @@ import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/databa
 
 @Injectable()
 export class ListService {
-  lists: FirebaseListObservable<any[]>;
+  firstList: FirebaseListObservable<any[]>;
+  secondList: FirebaseListObservable<any[]>;
+  thirdList: FirebaseListObservable<any[]>;
   constructor(private database: AngularFireDatabase) {
-    this.lists = database.list('FirstList')
+    this.firstList = database.list('FirstList');
+    this.secondList = database.list('SecondList');
+    this.thirdList = database.list('ThirdList');
   }
-  getLists(){
-    console.log(this.lists);
-    return this.lists;
+  getFirstLists(){
+    console.log(this.firstList);
+    return this.firstList;
+  }
+  getSecondLists(){
+    return this.secondList;
+  }
+  getThirdLists(){
+    return this.thirdList;
 }
 
 }
