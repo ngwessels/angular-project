@@ -32,4 +32,20 @@
     {"information": "Ad Partners" },
     {"information": "Analytics Partners" },
     {"information": "Data Rights" }
-  ]}
+  ],
+  "body": [
+    {"first": [
+      {"link": "https://weather.com/news/news/2019-03-28-montana-north-dakota-homes-evacuated-flooding"},
+      {"image": "../../assets/img/statewide-flood.png"},
+      {"title1": "Statewide Flood Emergency:"},
+      {"title2": "Homes Evacuated, Highway"},
+      {"title3": "Closed"},
+      {"paragraph": "All signs point to a high potential for significant floods that could overwhelm local response capabilities across the state"},
+      {"link": "SEE MORE ->"}
+      ]}
+    ]
+
+
+
+
+  }

@@ -46,6 +46,16 @@ _Below are the steps to follow to install this application_
   6. Once finished type in `ng serve --open` to open it in your browser
 
 
+###Features
+_Below is a list of features this application has_
+  1. Angular framework
+  2. Firebase Realtime database
+
+###Possible Features in the Future
+_Below is a list of planned features that have not been worked on yet_
+  1. Firebase Storage. Storing all photos
+  2. API Call getting realtime weather Informatio
+
 ### Known Bugs
 * None identified
 

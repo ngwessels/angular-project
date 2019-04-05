@@ -28,11 +28,6 @@
         <li [id]='index.information' *ngFor='let index of lists | async' (click)='onClick(index.information)'>
           <span>{{index.information}}</span>
         </li>
-
-
-        <!--
-        <li [id]='index.information' *ngFor='let index of lists' (click)='onClick(index.information)'>
-        <span>{{index.information}}</span></li> -->
       </ul>
     </div>
   </div>
