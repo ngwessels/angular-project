@@ -1,0 +1,18 @@
+{ "FirstList": [{
+    "information": "Today"
+    }, {
+    "information": "Hourly"
+    }, {
+    "information": "Fiveday"
+    }, {
+    "information": "Tenday"
+    }, {
+    "information": "Weekend"
+    }, {
+    "information": "Monthly"
+    }, {
+    "information": "Maps"
+    }, {
+    "information": "More"
+    }]
+}
